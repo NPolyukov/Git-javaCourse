@@ -6,6 +6,10 @@ public class GitMain {
         System.out.println(car.getMotor());
         System.out.println(car.getColor());
         System.out.println(car.getNumPassenger());
+        Car car1 = new Car("v8","Blue",3);
+        System.out.println(car1.getMotor());
+        System.out.println(car1.getColor());
+        System.out.println(car1.getNumPassenger());
 
     }
 }
